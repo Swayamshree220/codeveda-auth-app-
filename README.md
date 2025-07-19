@@ -19,7 +19,5 @@ It implements **user signup, login, JWT-based dashboard access**, and a clean fr
 - ✅ JWT implementation with `jsonwebtoken`  
 - ✅ Token saved in `localStorage`
 
----
 
-## 📁 Project Structure
 
