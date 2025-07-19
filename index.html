@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Codveda Task 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Codveda Task 3 - Fullstack Auth App</h1>
+
+  <div class="form">
+    <h2>Signup</h2>
+    <input id="signup-name" placeholder="Name">
+    <input id="signup-email" placeholder="Email">
+    <input id="signup-password" type="password" placeholder="Password">
+    <button onclick="signup()">Sign Up</button>
+    <p id="signup-message"></p>
+  </div>
+
+  <div class="form">
+    <h2>Login</h2>
+    <input id="login-email" placeholder="Email">
+    <input id="login-password" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="login-message"></p>
+  </div>
+
+  <div class="form">
+    <h2>Dashboard</h2>
+    <button onclick="getDashboard()">Access Dashboard</button>
+    <p id="dashboard-response"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
